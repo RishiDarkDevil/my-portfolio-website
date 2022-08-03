@@ -492,7 +492,7 @@ ul {
   .card .title-div {
     padding-bottom: 6rem;
     margin-bottom: 0px;
-    font-size: 2rem;
+    font-size: 1.2rem;
   }
   .skill-card {
     width: 450px;
@@ -526,7 +526,7 @@ ul {
 
 @media (max-width: 377px) {
   .skill-card .data {
-    transform: translateY(calc(90px + 4em));
+    transform: translateY(calc(60px + 4em));
   }
   .social-icon svg {
     margin-top: 20px;

@@ -5,34 +5,65 @@ AOS.init();
 const techStackCards = document.querySelector(".techstack-box");
 const techStack = [
   {
-    langImage: "assets/images/techstack-page/html.png",
-    langName: "HyperText Markup Language",
-    langDesc: "<li>The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser</li>",
+    langImage: "assets/images/techstack-page/tensorflow.png",
+    langName: "TensorFlow",
+    langDesc: "<li>TensorFlow is a free and open-source software library for machine learning and artificial intelligence. It can be used across a range of tasks but has a particular focus on training and inference of deep neural networks</li>",
   },
   {
-    langImage: "assets/images/techstack-page/css.png",
-    langName: "Cascading Style Sheets",
-    langDesc: "<li>Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML</li>",
+    langImage: "assets/images/techstack-page/pytorch.png",
+    langName: "PyTorch",
+    langDesc: "<li>PyTorch is an open source machine learning framework based on the Torch library, used for applications such as computer vision and natural language processing</li>",
   },
   {
-    langImage: "assets/images/techstack-page/javascript.png",
-    langName: "JavaScript",
-    langDesc: "<li>JavaScript, often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS</li>",
+    langImage: "assets/images/techstack-page/numpy.png",
+    langName: "NumPy",
+    langDesc: "<li>NumPy is a library for the Python programming language, adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays</li>",
   },
   {
-    langImage: "assets/images/techstack-page/node.png",
-    langName: "Node",
-    langDesc: "<li>Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser</li>",
+    langImage: "assets/images/techstack-page/pandas.png",
+    langName: "Pandas",
+    langDesc: "<li>Pandas is a software library written for the Python programming language for data manipulation and analysis. In particular, it offers data structures and operations for manipulating numerical tables and time series</li>",
+  },
+  {
+    langImage: "assets/images/techstack-page/matplotlib.png",
+    langName: "Matplotlib",
+    langDesc: "<li>Matplotlib is a plotting library for the Python programming language and its numerical mathematics extension NumPy.</li>",
+  },
+  {
+    langImage: "assets/images/techstack-page/seaborn.png",
+    langName: "Seaborn",
+    langDesc: "<li>Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics</li>",
+  },
+  {
+    langImage: "assets/images/techstack-page/tidyverse.png",
+    langName: "Tidyverse",
+    langDesc: "<li>The tidyverse is an opinionated collection of R packages designed for data science. All packages share an underlying design philosophy, grammar, and data structures</li>",
   },
   {
     langImage: "assets/images/techstack-page/python.png",
     langName: "Python",
-    langDesc: "<li>Python is an interpreted high-level general-purpose programming language</li>",
+    langDesc: "<li>Python, the emerging high-level language for all cutting edge scientific and technical researches in data science, machine learning and deep learning as well as deployment</li>",
+  },
+
+  {
+    langImage: "assets/images/techstack-page/r-logo.jpg",
+    langName: "R",
+    langDesc: "<li>R is a programming language for statistical computing and graphics which provides lots of statistical analysis libraries and produces highly quality data visualisations, reports, web apps and even books</li>",
   },
   {
-    langImage: "assets/images/techstack-page/cpp.png",
-    langName: "C++",
-    langDesc: "<li>C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or C with Classes</li>",
+    langImage: "assets/images/techstack-page/r-studio.png",
+    langName: "RStudio",
+    langDesc: "<li>RStudio is an integrated development environment for R, which is highly customisable and helps in deployment and analysis using R as well as underlying support for other languages like Python, C, CPP, HTML</li>",
+  },
+  {
+    langImage: "assets/images/techstack-page/posit.png",
+    langName: "Posit",
+    langDesc: "<li>Posit, previously RStudio, provides support for both R and Python and hence brings the power to develop applications, reports utilising the power of both R and Python</li>",
+  },
+  {
+    langImage: "assets/images/techstack-page/latex.png",
+    langName: "Latex",
+    langDesc: "<li>LaTeX is a software system for document preparation and helps in producing scientific papers, reports, books for journals, conferences and research works along with wide variety of templates</li>",
   },
   {
     langImage: "assets/images/techstack-page/git.png",
@@ -40,20 +71,15 @@ const techStack = [
     langDesc: "<li>Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development.</li>",
   },
   {
-    langImage: "assets/images/techstack-page/bootstrap.png",
-    langName: "Bootstrap",
-    langDesc: "<li>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development</li>",
-  },
-  {
-    langImage: "assets/images/techstack-page/react.png",
-    langName: "React",
-    langDesc: "<li>React is a free and open-source front-end JavaScript library for building user interfaces based on UI components</li>",
-  },
-  {
     langImage:"assets/images/techstack-page/c.png",
     langName:"C",
-    langDesc:"<li>C is a general-purpose, procedural computer programming language supporting structured programming, lexical variable scope, and recursion, with a static type system</li>"
+    langDesc:"<li>C is a general-purpose, procedural computer programming language supporting structured programming, lexical variable scope, and recursion</li>"
   },
+  {
+    langImage: "assets/images/techstack-page/cpp.png",
+    langName: "C++",
+    langDesc: "<li>C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or C with Classes</li>",
+  }
 ];
 
 const displayTechStacksCards = () => {

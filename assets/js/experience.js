@@ -5,25 +5,18 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Software Development Intern",
-    cardImage: "assets/images/experience-page/flipkart.jpg",
-    place: "Flipkart",
-    time: "(May, 2020 - present)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
-  },
-  {
-    title: "Student Developer",
-    cardImage: "assets/images/experience-page/gsoc.png",
-    place: "Google Summer Of Code",
-    time: "(Mar - Aug, 2019)",
-    desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
-  },
-  {
     title: "Research Intern",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
-    place: "IIT, Bombay",
-    time: "(Dec, 19 - Jan, 20)",
-    desp: "<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
+    cardImage: "assets/images/experience-page/IITJ.png",
+    place: "IIT, Jodhpur & NBRC",
+    time: "(May, 2022 - present)",
+    desp: "<li>Working on unraveling uncertainty as a major underlying latent variable for explaining emotional dynamics.</li> <li>Devising improved sequence models(LSTMs, CNN-LSTMs, etc.), attaining low MSE of < 5 for multivariate BOLD time series predictions for each Brain ROIs, for quantifying uncertainty.</li> <li>Implementing modified dimension reduction techniques (T-PHATE, PHATE, T-PCA, t-SNE) for Brain image data in order to capture neural uncertainty representation.</li> <li>Identifying the Brain ROIs responsible for capturing uncertainty in both young and old subjects, as well as comparing the clarity of uncertainty representation in both.</li><li>Bayesian encoding, decoding and computational uncertainty estimations in a hierarchical neural architecture.</li> ",
+  },
+  {
+    title: "Data Science Intern",
+    cardImage: "assets/images/experience-page/PACA.jpg",
+    place: "People Against Cyber Abuse(PACA)",
+    time: "(Dec, 2021 - Jan, 2022)",
+    desp: "<li>Worked on Exploratory Data Analysis, NLP and Statistical Inference drawn from survey response data on Cyber Abuse.</li><li>Applied NLP to extract positive and negative comments and come up with features characterising abusive nature.</li><li>Clustering of people based on their knowledge about Cyber Absue, opinions or solutions and groups or platforms prone to Cyber Abuse.</li><li>The objective of this study was to come up with a social model to identify and curb the instances of cyber abuse.</li>",
   },
 ];
 
@@ -62,43 +55,43 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
-    title: "GirlScript Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/1.jpg",
+    title: "Winter School for Deep Learning 2022",
+    cardImage: "assets/images/experience-page/WSDL22.jpg",
     description:
-      "Responsible for handling the projects GirlScript App and GirlScript Website Boilerplate.",
+      "3 months long detailed mathematical and applied deep learning methods with focus on NLP, ML Theory, XAI and GANs.",
+    link: "https://www.isical.ac.in/~ecsu/?q=node/106",
+    certificate: "https://drive.google.com/file/d/1caZHvdJwRPyQY7ruBHI_GRYpsrDYpcKb/view",
   },
   {
-    title: "StudentCode-in 2020",
-    cardImage: "assets/images/experience-page/2.jpg",
+    title: "IIIT-Hyderabad Advanced Summer School on NLP 2022",
+    cardImage: "assets/images/experience-page/IASNLP2022.png",
     description:
-      "Responsible for handling open source contributions for the project Awesome Developer Portfolio.",
+      "1 month long discussions on NLP, computational linguistic and speech-processing along with applied project on Indian Languages.",
+    link: "https://ltrc.iiit.ac.in/iasnlp2022/",
+    certificate: "https://drive.google.com/file/d/1Pa18JXUNgIQidlNnD36mtHH9vwBjqW86/view",
   },
   {
-    title: "PClub Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/3.jpg",
+    title: "Summer School on AI: With Focus on CV and ML",
+    cardImage: "assets/images/experience-page/SSAI2022.png",
     description:
-      "Mentoring for the projects Deep Pixel, AutoVaidya, Just Resume and Doc2pen.",
-  },
-  {
-    title: "Hakin-Codes",
-    cardImage: "assets/images/experience-page/4.jpg",
-    description:
-      "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
+      "1 month long discussions on applied ML, DL, CV and Image & Video-Processing techniques.",
+    link: "http://cvit.iiit.ac.in/summerschool2022/",
+    certificate: ""
   },
 ];
 
 const showCards = () => {
   let output = "";
   volunteershipcards.forEach(
-    ({ title, cardImage, description }) =>
+    ({ title, cardImage, description, link, certificate }) =>
       (output += `        
       <div class="card volunteerCard" data-aos="fade-down" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="600" style="height: 550px;width:400px">
       
       <img src="${cardImage}" height="250" width="65" class="card-img" style="border-radius:10px">
       <div class="content">
-          <h2 class="volunteerTitle">${title}</h2><br>
-          <p class="copy">${description}</p></div>
-      
+          <a href="${link}"><h2 class="volunteerTitle">${title}</h2></a><br>
+          <p class="copy">${description}</p>
+      </div>
       </div>
       `)
   );
@@ -108,97 +101,23 @@ document.addEventListener("DOMContentLoaded", showCards);
 
 // Hackathon Section
 
+// Add when you have experience later -- UNCOMMENT BELOW 
 const hackathonsection = document.querySelector(".hackathon-section");
-const mentor = [
+/* const mentor = [
   {
-    title: "The Uplift Project",
-    subtitle: "Mentor",
+    title: "To Be Updated...",
+    subtitle: "Working on it...",
     image: "assets/images/experience-page/uplift.png",
     desp: "I would be responsible for guiding 100s of participants across the globe in their first steps towards Applied Data Science and building end-to-end machine learning projects.",
   },
+]; */
+
+const mentor = [
   {
-    title: "ULHacks",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/ulhacks.png",
-    desp: "ULHacks is a 36 hour long hackathon organized with an aim to enable students to create a project which empowers learning.",
-  },
-  {
-    title: "WaffleHacks",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/wafflehacks.png",
-    desp: "WaffleHacks 2021 is an upcoming 48-hour student-organized hackathon with an aim to bring technical solutions to local communities and small businesses.",
-  },
-  {
-    title: "Elevate Tech",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/elevate.png",
-    desp: "Elevate Hacks is an upcoming all-female virtual hackathon coming from AUGUST 14th to 15th.",
-  },
-  {
-    title: "PitchTeen",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/pitchteen.png",
-    desp: "PitchTeen 2.0 was a tech startup competition for female and non-binary communities in high school and college from all over the world with an aim to create a safe and encouraging place for women to help them explore tech and business fields.",
-  },
-  {
-    title: "Hack-A-Solution",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/hackasolution.png",
-    desp: "Hack-a-Solution 2021 is a 24 hour long hackathon organized by Frisco students to raise awareness of world issues through technology.",
-  },
-  {
-    title: "UniGlobe Hacks",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/uniglobe.png",
-    desp: "UniGlobe Hacks 2.0 is an upcoming 4-day long hackathon run by high school students held during 28-31 July 2021.",
-  },
-  {
-    title: "AtlasHacks",
-    subtitle: "Mentor",
-    image: "assets/images/experience-page/atlas.png",
-    desp: "AtlasHacks II is a 3-day virtual hackathon that aims to foster creativity within hackers all around the world.",
-  },
-  {
-    title: "NeoHacks",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/neo.png",
-    desp: "NeoHacks is an upcoming 48-hour hackathon taking place July 23-25, 2021 where hundreds of students from around the world will come together virtually to learn new skills, meet new friends, and build awesome projects. We provide beginner-friendly workshops, mentorship, fun games, and more.",
-  },
-  {
-    title: "Mission Inspired",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/mission.png",
-    desp: "InspireEd Hacks is a nationwide initiative organized by the student-for-student nonprofit, Mission InspirEd, challenging students ages 10-18 to synthesize their creativity and coding experience into a product beneficial to the educational community.",
-  },
-  {
-    title: "Hack3",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/hack3.png",
-    desp: "Hack3 2021 is an upcoming global online hackathon that aims to enable high school students to learn computer science, with a broader message of (everyone can code) targeting underrepresented demographics to improve diversity and inclusion of individuals in the computer technology space.",
-  },
-  {
-    title: "JITHack",
-    subtitle: "Mentor",
-    image: "assets/images/experience-page/jithack.png",
-    desp: "JITHack is an upcoming virtual design and development hackathon organized by the students of Jyothy Institute of Technology, Bengaluru on June 26, 2021, where participants have 24 hours to build something incredible.",
-  },
-  {
-    title: "Recess Hacks",
-    subtitle: "Mentor",
-    image: "assets/images/experience-page/recess.png",
-    desp: "Recess Hacks is an upcoming hackathon for high school students in the Greater Toronto Area that strives to encourage innovation among high school students and get involved in technology.",
-  },
-  {
-    title: "Citro Tech",
-    subtitle: "Mentor",
-    image: "assets/images/experience-page/citro.png",
-    desp: "Citro Hacks 2021 is an upcoming all-inclusive online hackathon organized by Citro Tech, a student led organization dedicated to empowering minorities in the tech field</li>",
-  },
-  {
-    title: "NHacks",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/nhacks.png",
-    desp: "NHacks VI was a hackathon that aimed to encourage students everywhere to develop skills in computer science by creating tangible products that they're proud of. It initially started as Michigan's largest high school hackathon.",
+    title: "To Be Updated...",
+    subtitle: "Working on it...",
+    image: "assets/images/experience-page/experience.svg",
+    desp: "More stuffs coming soon...",
   },
 ];
 
