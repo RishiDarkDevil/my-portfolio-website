@@ -8,7 +8,7 @@ const exp = [
     title: "Research Intern",
     cardImage: "assets/images/experience-page/IITJ.png",
     place: "IIT, Jodhpur & NBRC",
-    time: "(May, 2022 - present)",
+    time: "(May, 2022 - Aug, 2022)",
     desp: "<li>Working on unraveling uncertainty as a major underlying latent variable for explaining emotional dynamics.</li> <li>Devising improved sequence models(LSTMs, CNN-LSTMs, etc.), attaining low MSE of < 5 for multivariate BOLD time series predictions for each Brain ROIs, for quantifying uncertainty.</li> <li>Implementing modified dimension reduction techniques (T-PHATE, PHATE, T-PCA, t-SNE) for Brain image data in order to capture neural uncertainty representation.</li> <li>Identifying the Brain ROIs responsible for capturing uncertainty in both young and old subjects, as well as comparing the clarity of uncertainty representation in both.</li><li>Bayesian encoding, decoding and computational uncertainty estimations in a hierarchical neural architecture.</li> ",
   },
   {
