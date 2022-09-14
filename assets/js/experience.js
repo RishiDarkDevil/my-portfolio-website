@@ -6,6 +6,13 @@ const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
     title: "Research Intern",
+    cardImage: "assets/images/experience-page/aiisc.png",
+    place: "AIISC, University of South Carolina",
+    time: "(Sep, 2022 - Present)",
+    desp: "",
+  },
+  {
+    title: "Research Intern",
     cardImage: "assets/images/experience-page/IITJ.png",
     place: "IIT, Jodhpur & NBRC",
     time: "(May, 2022 - Aug, 2022)",

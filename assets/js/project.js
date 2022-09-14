@@ -6,6 +6,14 @@ const projectcards = document.querySelector(".projectcards");
 // Array of object for projects
 const projects = [
   {
+    title: "Scanned Document Classification",
+    cardImage: "assets/images/project-page/doc-class.png",
+    description: "Classifying scanned documents into 16 categories using CV, DL and ML for better document information retrieval.",
+    tagimg: "",
+    Previewlink: "https://github.com/RishiDarkDevil/Document-Classification/blob/main/EfficientNet-4Piece-Model-Embed-Visualization.ipynb",
+    Githublink: "https://github.com/RishiDarkDevil/Document-Classification",
+  },
+  {
     title: "Neural Uncertainty Representation",
     cardImage: "assets/images/project-page/Neural-Unc-Rep.jpg",
     description: "Unraveling uncertainty as a major underlying latent variable for explaining emotional dynamics using ML, DL, Computational Neuroscience.",
