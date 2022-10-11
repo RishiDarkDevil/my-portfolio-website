@@ -70,12 +70,12 @@ const volunteershipcards = [
     certificate: "https://drive.google.com/file/d/1caZHvdJwRPyQY7ruBHI_GRYpsrDYpcKb/view",
   },
   {
-    title: "Winter School for Deep Learning 2022",
-    cardImage: "assets/images/experience-page/WSDL22.jpg",
+    title: "Summer School on AI: With Focus on CV and ML",
+    cardImage: "assets/images/experience-page/SSAI2022.png",
     description:
-      "3 months long detailed mathematical and applied deep learning methods with focus on NLP, ML Theory, XAI and GANs.",
-    link: "https://www.isical.ac.in/~ecsu/?q=node/106",
-    certificate: "https://drive.google.com/file/d/1caZHvdJwRPyQY7ruBHI_GRYpsrDYpcKb/view",
+      "1 month long discussions on applied ML, DL, CV and Image & Video-Processing techniques.",
+    link: "http://cvit.iiit.ac.in/summerschool2022/",
+    certificate: "https://drive.google.com/file/d/18R9Zj1jtMGQMaAWaV-nbY3QudKHKwXUA/view"
   },
   {
     title: "IIIT-Hyderabad Advanced Summer School on NLP 2022",
@@ -86,12 +86,12 @@ const volunteershipcards = [
     certificate: "https://drive.google.com/file/d/1Pa18JXUNgIQidlNnD36mtHH9vwBjqW86/view",
   },
   {
-    title: "Summer School on AI: With Focus on CV and ML",
-    cardImage: "assets/images/experience-page/SSAI2022.png",
+    title: "Winter School for Deep Learning 2022",
+    cardImage: "assets/images/experience-page/WSDL22.jpg",
     description:
-      "1 month long discussions on applied ML, DL, CV and Image & Video-Processing techniques.",
-    link: "http://cvit.iiit.ac.in/summerschool2022/",
-    certificate: "https://drive.google.com/file/d/18R9Zj1jtMGQMaAWaV-nbY3QudKHKwXUA/view"
+      "3 months long detailed mathematical and applied deep learning methods with focus on NLP, ML Theory, XAI and GANs.",
+    link: "https://www.isical.ac.in/~ecsu/?q=node/106",
+    certificate: "https://drive.google.com/file/d/1caZHvdJwRPyQY7ruBHI_GRYpsrDYpcKb/view",
   },
 ];
 
@@ -123,23 +123,22 @@ const mentor = [
     title: "Datathon@IndoML22",
     subtitle: "September-October 2022",
     image: "assets/images/experience-page/IndoML22.png",
-    desp: "Secured a rank in top 20 out of more than 100 teams working on a Computer Vision problem of classifying scanned document images into 16 categories.",
+    desp: "Secured a rank in top 20 out of more than 100 teams working on a Computer Vision problem of classifying scanned document images into 16 categories as a part of IndoML22 conference's Datathon challenge.",
+    link: "https://sites.google.com/view/datathonindoml/home"
   },
-];
-
-/*const mentor = [
   {
     title: "To Be Updated...",
     subtitle: "Working on it...",
     image: "assets/images/experience-page/experience.svg",
     desp: "More stuffs coming soon...",
+    link: "#"
   },
-];*/
+];
 
 const showCards3 = () => {
   let output = "";
   mentor.forEach(
-    ({ title, image, subtitle, desp }) =>
+    ({ title, image, subtitle, desp, link}) =>
       (output += `  
       <div class="blog-slider__item swiper-slide">
         <div class="blog-slider__img">
@@ -149,7 +148,7 @@ const showCards3 = () => {
           <div class="blog-slider__title">${title}</div>
           <span class="blog-slider__code">${subtitle}</span>
           <div class="blog-slider__text">${desp}</div>
-          <a href="#" class="blog-slider__button">Read More</a>   
+          <a href="${link}" class="blog-slider__button" target="_blank">Read More</a>   
         </div>
       </div>
       `)
