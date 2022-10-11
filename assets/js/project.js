@@ -10,7 +10,7 @@ const projects = [
     cardImage: "assets/images/project-page/doc-class.png",
     description: "Classifying scanned documents into 16 categories using CV, DL and ML for better document information retrieval.",
     tagimg: "",
-    Previewlink: "https://github.com/RishiDarkDevil/Document-Classification/blob/main/EfficientNet-4Piece-Model-Embed-Visualization.ipynb",
+    Previewlink: "https://github.com/RishiDarkDevil/Document-Classification/blob/main/Report/Datathon-22-Report.pdf",
     Githublink: "https://github.com/RishiDarkDevil/Document-Classification",
   },
   {

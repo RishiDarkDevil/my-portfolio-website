@@ -9,7 +9,7 @@ const exp = [
     cardImage: "assets/images/experience-page/aiisc.png",
     place: "AIISC, University of South Carolina",
     time: "(Sep, 2022 - Present)",
-    desp: "",
+    desp: "<li>Working on building a pretrained model for Joint Embedding of Visual & Textual Information.</li>",
   },
   {
     title: "Research Intern",
@@ -62,6 +62,14 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
+    title: "Quantum Computing with IBM Quantum 2022-23",
+    cardImage: "assets/images/experience-page/QxQIBMQC.png",
+    description:
+      "2 semester long long detailed theoretical and applied Quantum Computing with quantum algorithm development.",
+    link: "https://www.qubitbyqubit.org/course-info",
+    certificate: "https://drive.google.com/file/d/1caZHvdJwRPyQY7ruBHI_GRYpsrDYpcKb/view",
+  },
+  {
     title: "Winter School for Deep Learning 2022",
     cardImage: "assets/images/experience-page/WSDL22.jpg",
     description:
@@ -83,7 +91,7 @@ const volunteershipcards = [
     description:
       "1 month long discussions on applied ML, DL, CV and Image & Video-Processing techniques.",
     link: "http://cvit.iiit.ac.in/summerschool2022/",
-    certificate: ""
+    certificate: "https://drive.google.com/file/d/18R9Zj1jtMGQMaAWaV-nbY3QudKHKwXUA/view"
   },
 ];
 
@@ -110,23 +118,23 @@ document.addEventListener("DOMContentLoaded", showCards);
 
 // Add when you have experience later -- UNCOMMENT BELOW 
 const hackathonsection = document.querySelector(".hackathon-section");
-/* const mentor = [
-  {
-    title: "To Be Updated...",
-    subtitle: "Working on it...",
-    image: "assets/images/experience-page/uplift.png",
-    desp: "I would be responsible for guiding 100s of participants across the globe in their first steps towards Applied Data Science and building end-to-end machine learning projects.",
-  },
-]; */
-
 const mentor = [
+  {
+    title: "Datathon@IndoML22",
+    subtitle: "September-October 2022",
+    image: "assets/images/experience-page/IndoML22.png",
+    desp: "Secured a rank in top 20 out of more than 100 teams working on a Computer Vision problem of classifying scanned document images into 16 categories.",
+  },
+];
+
+/*const mentor = [
   {
     title: "To Be Updated...",
     subtitle: "Working on it...",
     image: "assets/images/experience-page/experience.svg",
     desp: "More stuffs coming soon...",
   },
-];
+];*/
 
 const showCards3 = () => {
   let output = "";
