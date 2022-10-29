@@ -5,6 +5,11 @@ AOS.init();
 const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
+    title: "GAN Specialization",
+    cardImage: "assets/images/education-page/coursera.png",
+    moocLink: "https://www.coursera.org/account/accomplishments/specialization/certificate/TDVFTF6HSUEH",
+  },
+  {
     title: "Deep Learning Specialization",
     cardImage: "assets/images/education-page/coursera.png",
     moocLink: "https://www.coursera.org/account/accomplishments/specialization/certificate/MLVVJJ2P2KAX",
