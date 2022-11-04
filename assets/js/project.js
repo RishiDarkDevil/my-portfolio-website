@@ -6,6 +6,14 @@ const projectcards = document.querySelector(".projectcards");
 // Array of object for projects
 const projects = [
   {
+    title: "Visual-Textual Joint Embedding",
+    cardImage: "assets/images/project-page/joint_embed.jpg",
+    description: "Vector representation of related image and text on same vector space using novel DL Methods for improving retrieval and classification.",
+    tagimg: "",
+    Previewlink: "https://github.com/RishiDarkDevil/Joint-Embedding",
+    Githublink: "https://github.com/RishiDarkDevil/Joint-Embedding",
+  },
+  {
     title: "Scanned Document Classification",
     cardImage: "assets/images/project-page/doc-class.png",
     description: "Classifying scanned documents into 16 categories using CV, DL and ML for better document information retrieval.",

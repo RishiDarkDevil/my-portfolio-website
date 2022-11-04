@@ -123,7 +123,7 @@ const mentor = [
     title: "Datathon@IndoML22",
     subtitle: "September-October 2022",
     image: "assets/images/experience-page/IndoML22.png",
-    desp: "Secured a rank in top 20 out of more than 100 teams working on a Computer Vision problem of classifying scanned document images into 16 categories as a part of IndoML22 conference's Datathon challenge.",
+    desp: "Secured a rank in top 5 out of 192 competitors working on a Computer Vision problem of classifying scanned document images into 16 categories as a part of IndoML22 conference's Datathon challenge.",
     link: "https://sites.google.com/view/datathonindoml/home"
   },
   {
