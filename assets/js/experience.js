@@ -16,7 +16,7 @@ const exp = [
     cardImage: "assets/images/experience-page/IITJ.png",
     place: "IIT, Jodhpur & NBRC",
     time: "(May, 2022 - Aug, 2022)",
-    desp: "<li>Working on unraveling uncertainty as a major underlying latent variable for explaining emotional dynamics.</li> <li>Devising improved sequence models(LSTMs, CNN-LSTMs, etc.), attaining low MSE of < 5 for multivariate BOLD time series predictions for each Brain ROIs, for quantifying uncertainty.</li> <li>Implementing modified dimension reduction techniques (T-PHATE, PHATE, T-PCA, t-SNE) for Brain image data in order to capture neural uncertainty representation.</li> <li>Identifying the Brain ROIs responsible for capturing uncertainty in both young and old subjects, as well as comparing the clarity of uncertainty representation in both.</li><li>Bayesian encoding, decoding and computational uncertainty estimations in a hierarchical neural architecture.</li> ",
+    desp: "<li>Worked on unraveling uncertainty as a major underlying latent variable for explaining emotional dynamics.</li> <li>Devised improved sequence models(LSTMs, CNN-LSTMs, etc.), attaining low MSE of < 5 for multivariate BOLD time series predictions for each Brain ROIs, for quantifying uncertainty.</li> <li>Implemented modified dimension reduction techniques (T-PHATE, PHATE, T-PCA, t-SNE) for Brain image data in order to capture neural uncertainty representation.</li> <li>Identified the Brain ROIs responsible for capturing uncertainty in both young and old subjects, as well as comparing the clarity of uncertainty representation in both.</li>",
   },
   {
     title: "Data Science Intern",
@@ -119,6 +119,13 @@ document.addEventListener("DOMContentLoaded", showCards);
 // Add when you have experience later -- UNCOMMENT BELOW 
 const hackathonsection = document.querySelector(".hackathon-section");
 const mentor = [
+  {
+    title: "IBM Quantum Challenge",
+    subtitle: "November 2022",
+    image: "assets/images/experience-page/ibm-quantum-challenge-22.jpg",
+    desp: "Received the Advanced Badge for completing all 4 labs associated with the Quantum Challenge. It involved topics from Qiskit Primitives, Quantum Machine Learning to Optimisation and Quantum Chemistry Molecule Simulations on actual IBM Quantum Computers.",
+    link: "https://challenges.quantum-computing.ibm.com/fall-2022"
+  },
   {
     title: "Datathon@IndoML22",
     subtitle: "September-October 2022",
