@@ -54,6 +54,14 @@ const projects = [
     Githublink: "https://github.com/RishiDarkDevil/Pro-Environmental-Attitude-Analysis",
   },
   {
+    title: "Vector Map Stitching",
+    cardImage: "assets/images/project-page/VMS.png",
+    description: "Creating global vector map by stitching local locations on map screenshots using linear model.",
+    tagimg: "",
+    Previewlink: "https://github.com/RishiDarkDevil/Map-Location-Finder",
+    Githublink: "https://github.com/RishiDarkDevil/Map-Location-Finder",
+  },
+  {
     title: "Digit Span Test",
     cardImage: "assets/images/project-page/Short-Term-Memory.png",
     description: "R Shiny Webapp to conduct and provide dashboard results for Digit Span Test measuring Short-Term Memory Capacity.",
