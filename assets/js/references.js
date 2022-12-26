@@ -7,35 +7,18 @@ const referenceTable = document.querySelector(".pain");
 const references = [
   {
     sl1: 1,
-    name1 : "Smaranjit Ghose",
-        designation1 : "Product Manager, Microsoft",
-        image1 : "https://avatars.githubusercontent.com/u/46641503?v=4",
-        message1 : "John is a conscientious individual whom I mentored during JWOC'2021. His problem-solving skills and a keen interest in learning new skillsets are remarkable. His hardworking nature and team-building abilities make him different from others.",
+    name1 : "Annapurna",
+        designation1 : "Visiting Rajasthan",
+        image1 : "assets/images/references-page/mom1.JPG",
+        message1 : "'If you ever come to my house my mom would love your presence more than me', I used to say this. Mom loved cooking, drawing, stitching and writing poems. She was my first teacher. She took me to Karate and Drawing school, carried my bag, and brought food. Cared for me whenever I was sick. She took me to school during exams. She used to put me to sleep, comfort me and tell me bedtime stories after a tiresome day. Taught me how to be happy howsoever small my material possessions are. She loved celebrating my success more than I ever could.",
         
 
         sl2:2,
-        name2 : "Anush Bhatia",
-        designation2 : "Senior Analyst, Capgemini", 
-        image2: "https://avatars.githubusercontent.com/u/40017559?v=4",
-        message2 : "John has the best grasping skills I have seen in a new developer. I got to know him through GSSOC'2021 when I mentored him, and he made an exceptional growth during the competition. He made some incredible contributions and has good experience with Open Source.",
-        
-        
+        name2 : "Kushi",
+        designation2 : "Visiting Meghalaya", 
+        image2: "assets/images/references-page/mom2.JPG",
+        message2 : "My mom always tried to keep me happy and to be the best mom ever. I wish she was here with me to let her know, how much I loved her and how much she meant to me. She cared for little kids, and underprivileged people and spent all her earnings to help them. My mom was strong, she combated her illness for years to push me to become a successful man. I owe every inch of me and all I become to my Mom. I realised that it's not our achievements that make us happy, it's the smile on the faces of our loved ones. Craving for you Mom. I bow down before you in my entirety for your blessings.",  
     },
-
-    {
-        sl1:3,
-        name1 : "Aditya Jyoti Paul",
-        designation1 : "Technical Analyst, Amazon",
-        image1 : "https://media-exp1.licdn.com/dms/image/C5603AQGEV-kzawPxjw/profile-displayphoto-shrink_800_800/0/1588602102622?e=1651708800&v=beta&t=8nxhFoR-WB4OKVltyYaVjmRpig_kQcvFsoa-eLjJPBQ",
-        message1 : "John and I have worked on several projects. Apart from technical skills, he also has good soft skills. He has good experience with debugging and has excellent leadership qualities.",
-        
-
-        sl2:4,
-        name2 : "Arnab Dutta Purkayastha",
-        designation2 : "Data Scientist, Flipkart",
-        image2 : "https://avatars.githubusercontent.com/u/59832779?v=4",
-        message2 : "John and I worked together during a hackathon and the thing that surprised me the most about him was his knowledge of fundamentals. He offered sincere help to the team throughout the competition. He is an impressive problem solver who is able to address complex issues strategically and confidently.",
-  },
 ];
 
 AOS.init();
