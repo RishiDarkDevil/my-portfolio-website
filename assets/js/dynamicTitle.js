@@ -3,11 +3,15 @@ window.onload = function () {
   let pageTitle = document.title;
   let attentionMessage = "View Portfolio";
 
-  document.addEventListener("visibilitychange", function (e) {
-    let isPageActive = !document.hidden;
+  document.addEventListener('visibilitychange', function (e) {
+    const isPageActive = !document.hidden
+    toggle(isPageActive)
+  })
 
-    if (!isPageActive) {
-      toggle();
+  function toggle(isPageActive) {
+    if (isPageActive) {
+      document.title = pageTitle
+      favicon.href = './assets/images/dp_male.svg'
     } else {
       document.title = pageTitle;
     }
@@ -29,4 +33,4 @@ window.onload = function () {
       favicon.href = "./assets/images/My_Photo.png";
     }
   }
-};
+}
