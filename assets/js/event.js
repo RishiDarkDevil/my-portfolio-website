@@ -4,22 +4,34 @@ $(document).ready(function () {
   const event = [
     // eslint-disable-next-line linebreak-style
     {
-      title: "Advanced Summer School on NLP",
+      title: "At IIT Gandhinagar Conference, 2022",
+      image: "assets/images/event/image9.jpg",
+    },
+    {
+      title: "Indian Symposium on Machine Learning, 2022",
+      image: "assets/images/event/image11.jpg",
+    },
+    {
+      title: "Indian Symposium on Machine Learning, 2022",
+      image: "assets/images/event/image10.jpg",
+    },
+    {
+      title: "Advanced Summer School on NLP, 2022",
       image: "assets/images/event/image1.jpg",
     },
     {
-      title: "Advanced Summer School on NLP",
+      title: "Advanced Summer School on NLP, 2022",
       image: "assets/images/event/image2.jpg",
     },
-    { title: "At IIIT Hyderabad Summer School", 
+    { title: "At IIIT Hyderabad Summer School, 2022", 
       image: "assets/images/event/image3.jpg" 
     },
     {
-      title: "Debate on Independence Day",
+      title: "Debate on Independence Day, 2022",
       image: "assets/images/event/image4.jpg",
     },
     {
-      title: "Won the Debate Competetion",
+      title: "Won the Debate Competetion, 2022",
       image: "assets/images/event/image5.jpg",
     }
   ];

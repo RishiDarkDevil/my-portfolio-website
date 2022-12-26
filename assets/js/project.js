@@ -6,6 +6,14 @@ const projectcards = document.querySelector(".projectcards");
 // Array of object for projects
 const projects = [
   {
+    title: "Text-Based Object Discovery",
+    cardImage: "assets/images/project-page/Object-Detection.png",
+    description: "Stable Diffusion based synthetic data labelling and improving training of object detection models for extreme classification",
+    tagimg: "",
+    Previewlink: "https://github.com/RishiDarkDevil/Text-Based-Object-Discovery",
+    Githublink: "https://github.com/RishiDarkDevil/Text-Based-Object-Discovery",
+  },
+  {
     title: "Visual-Textual Joint Embedding",
     cardImage: "assets/images/project-page/joint_embed.jpg",
     description: "Vector representation of related image and text on same vector space using novel DL Methods for improving retrieval and classification.",
