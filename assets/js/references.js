@@ -10,14 +10,14 @@ const references = [
     name1 : "Annapurna",
         designation1 : "Visiting Rajasthan",
         image1 : "assets/images/references-page/mom1.JPG",
-        message1 : "'If you ever come to my house my mom would love your presence more than me', I used to say this. Mom loved cooking, drawing, stitching and writing poems. She was my first teacher. She took me to Karate and Drawing school, carried my bag, and brought food. Cared for me whenever I was sick. She took me to school during exams. She used to put me to sleep, comfort me and tell me bedtime stories after a tiresome day. Taught me how to be happy howsoever small my material possessions are. She loved celebrating my success more than I ever could.",
+        message1 : "I used to say, 'If you ever come to my house, my mother's love for your presence would far surpass mine.' My mother was truly the heart of our home, and the embodiment of love and warmth. She was a masterful cook, a gifted artist, a skilled seamstress, and a poet at heart. She was my first and most beloved teacher, guiding me through every step of my journey with a gentle hand. She took me to karate and drawing lessons, carried my school bag, and always had a warm meal waiting for me. She was my rock, always there to comfort and care for me when I was sick, and to celebrate my successes with more joy than I could ever muster. She taught me the true meaning of happiness, showing me that it is not found in material possessions, but in the love and laughter shared with loved ones.",
         
 
         sl2:2,
         name2 : "Kushi",
         designation2 : "Visiting Meghalaya", 
         image2: "assets/images/references-page/mom2.JPG",
-        message2 : "My mom always tried to keep me happy and to be the best mom ever. I wish she was here with me to let her know, how much I loved her and how much she meant to me. She cared for little kids, and underprivileged people and spent all her earnings to help them. My mom was strong, she combated her illness for years to push me to become a successful man. I owe every inch of me and all I become to my Mom. I realised that it's not our achievements that make us happy, it's the smile on the faces of our loved ones. Craving for you Mom. I bow down before you in my entirety for your blessings.",  
+        message2 : "My mother was a beacon of light in my life, always striving to keep me happy and to be the best mother she could be. Though she is no longer with me, I wish I could tell her just how deeply I loved her, and how much she meant to me. She was a selfless soul, dedicating her life to caring for little ones and those in need, and never hesitating to give of her time and resources to help others. Despite her own struggles and battles with illness, she was an unyielding pillar of strength, pushing me to become the best version of myself. I owe everything I am to her, and it is through her guidance and love that I have come to understand that true happiness is not found in our own accomplishments, but in the smile of those we hold dear. I long for you, dear mother, and I bow down in humble gratitude for all the blessings you have bestowed upon me.",  
     },
 ];
 
