@@ -1,13 +1,23 @@
 window.onload = function () {
+<<<<<<< HEAD
   const favicon = document.getElementById("favicon");
   let pageTitle = document.title;
   let attentionMessage = "View Portfolio";
+=======
+  const favicon = document.getElementById('favicon')
+  const pageTitle = document.title
+  const attentionMessage = 'Come back'
+>>>>>>> 75f90faf6a75532095d37cfb33a5368472d41e42
 
-  document.addEventListener("visibilitychange", function (e) {
-    let isPageActive = !document.hidden;
+  document.addEventListener('visibilitychange', function (e) {
+    const isPageActive = !document.hidden
+    toggle(isPageActive)
+  })
 
-    if (!isPageActive) {
-      toggle();
+  function toggle(isPageActive) {
+    if (isPageActive) {
+      document.title = pageTitle
+      favicon.href = './assets/images/dp_male.svg'
     } else {
       document.title = pageTitle;
     }
@@ -29,4 +39,4 @@ window.onload = function () {
       favicon.href = "./assets/images/My_Photo.png";
     }
   }
-};
+}

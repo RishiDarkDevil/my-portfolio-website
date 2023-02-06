@@ -124,28 +124,28 @@ const mentor = [
     subtitle: "November 2022",
     image: "assets/images/experience-page/ibm-quantum-challenge-22.jpg",
     desp: "Received the Advanced Badge for completing all 4 labs associated with the Quantum Challenge. It involved topics from Qiskit Primitives, Quantum Machine Learning to Optimisation and Quantum Chemistry Molecule Simulations on actual IBM Quantum Computers.",
-    link: "https://challenges.quantum-computing.ibm.com/fall-2022"
+    href: "https://challenges.quantum-computing.ibm.com/fall-2022"
   },
   {
     title: "Datathon@IndoML22",
     subtitle: "September-October 2022",
     image: "assets/images/experience-page/IndoML22.png",
     desp: "Secured a rank in top 5 out of 192 competitors working on a Computer Vision problem of classifying scanned document images into 16 categories as a part of IndoML22 conference's Datathon challenge.",
-    link: "https://sites.google.com/view/datathonindoml/home"
+    href: "https://sites.google.com/view/datathonindoml/home"
   },
   {
     title: "To Be Updated...",
     subtitle: "Working on it...",
     image: "assets/images/experience-page/experience.svg",
     desp: "More stuffs coming soon...",
-    link: "#"
+    href: "#"
   },
 ];
 
 const showCards3 = () => {
   let output = "";
   mentor.forEach(
-    ({ title, image, subtitle, desp, link}) =>
+    ({ title, image, subtitle, desp, href }) =>
       (output += `  
       <div class="blog-slider__item swiper-slide">
         <div class="blog-slider__img">
@@ -155,7 +155,7 @@ const showCards3 = () => {
           <div class="blog-slider__title">${title}</div>
           <span class="blog-slider__code">${subtitle}</span>
           <div class="blog-slider__text">${desp}</div>
-          <a href="${link}" class="blog-slider__button" target="_blank">Read More</a>   
+          <a href="${href}" class="blog-slider__button">Read More</a>   
         </div>
       </div>
       `)
