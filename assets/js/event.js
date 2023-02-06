@@ -4,6 +4,14 @@ $(document).ready(function () {
   const event = [
     // eslint-disable-next-line linebreak-style
     {
+      title: "Research Week With Google 2023",
+      image: "assets/images/event/image12.jpg",
+    },
+    {
+      title: "At Google Research India Bangalore",
+      image: "assets/images/event/image13.jpg",
+    },
+    {
       title: "At IIT Gandhinagar Conference, 2022",
       image: "assets/images/event/image9.jpg",
     },
